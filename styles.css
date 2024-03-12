@@ -27,7 +27,7 @@ body {
 
 .texto-cargando {
   padding-top: 20px;
-  font-size: 2.5em; /* Tamaño de fuente para pantallas de PC */
+  font-size: 2.5em;
   color: #23546c;
 }
 
@@ -56,9 +56,3 @@ body {
   }
 }
 
-/* Media query para pantallas de dispositivos móviles */
-@media only screen and (max-width: 500px) {
-  .texto-cargando {
-    font-size: 10em; /* Tamaño de fuente ajustado para dispositivos móviles */
-  }
-}
